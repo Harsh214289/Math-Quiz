@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guess The Word</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="game.css">
+</head>
+<body>
+
+<div class="container">
+	<center>
+		<h2 style="color: white;">Multiply Math!</h2>
+        <h3 id="p1_name">  </h3> <span id="p1_score">  </span>
+		<br>
+        <h3 id="p2_name" >  </h3> <span id="p2_score">  </span>
+		<br>
+		<br>
+        <h4 id="player_q">  </h4>
+		<h4 id="player_ans">  </h4>
+		<label>Send Your Word: <b style="color: red">Try putting word which has 5 or more alphabet</b></label>
+        <div id="output">
+
+
+
+		</div>
+		<br>
+		<input type="number" id="1st_number" class="form-control" placeholder="Enter 1st number Here">
+		<br>
+		<input type="number" id="2nd_number" class="form-control" placeholder="Enter 2nd Number Here">
+		<br>
+		<button class="btn btn-success" onclick="display_number()" id="button_send"> Display </button>
+
+	</center>
+</div>
+
+<script src="game_page.js"></script>
+</body>
+</html>
